@@ -1,9 +1,3 @@
-"""
-Advanced Expense Tracker MCP Server
-Author: Senior AI Engineer Build
-Version: 2.0.0
-"""
-
 from __future__ import annotations
 
 import os
