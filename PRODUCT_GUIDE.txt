@@ -1,0 +1,264 @@
+💰 EXPENSE TRACKER MCP – PRODUCTION GUIDE
+
+============================================================
+🚀 OVERVIEW
+===========
+
+This is an AI-powered Expense Tracker built using MCP (Model Context Protocol).
+
+Users interact using natural language, and the system automatically executes
+structured operations such as adding, updating, analyzing, and exporting expenses.
+
+No manual API calls required.
+
+---
+
+## 🧠 HOW IT WORKS
+
+User Input → AI (Claude) → MCP Tools → Database → Response
+
+Example:
+"Add ₹500 grocery expense"
+→ AI calls add_expense tool automatically
+
+============================================================
+✨ CORE FEATURES
+===============
+
+1. Expense Management
+
+---
+
+✔ Add, update, delete expenses
+✔ Category + subcategory support
+✔ Notes and tagging system
+✔ Multi-currency support (₹, $, etc.)
+
+2. Smart Filtering
+
+---
+
+✔ Filter by date range
+✔ Filter by category/subcategory
+✔ Filter by tags
+✔ Pagination support
+
+3. Analytics & Insights
+
+---
+
+✔ Category-wise summary
+✔ Daily / weekly grouping
+✔ Top spending analysis
+✔ Monthly trend analysis
+
+4. Budget Management
+
+---
+
+✔ Set monthly budgets per category
+✔ Real-time budget tracking
+✔ Automatic alerts (80% threshold)
+✔ Remaining balance calculation
+
+5. Data Export
+
+---
+
+✔ Export to CSV
+✔ Export to JSON
+✔ Time-based export filters
+
+6. Recurring Expenses
+
+---
+
+✔ Monthly recurring entries
+✔ Automated tracking
+
+7. System Resources
+
+---
+
+✔ Category listing
+✔ Schema inspection
+✔ Health monitoring
+
+============================================================
+⚙️ ADVANCED FEATURES
+====================
+
+✔ Audit Logging
+
+* Tracks all updates & deletions
+* Useful for debugging and compliance
+
+✔ Data Validation
+
+* Pydantic-based validation
+* Prevents invalid data entries
+
+✔ High Performance DB
+
+* SQLite with WAL mode enabled
+* Optimized for concurrent reads/writes
+
+✔ MCP Tooling
+
+* Standardized tool interface
+* Easy AI integration
+
+✔ Natural Language Interface
+
+* No UI dependency required
+* Works directly via AI prompts
+
+✔ Scalable Architecture
+
+* Easily extendable to microservices
+* Can integrate with FastAPI / cloud APIs
+
+============================================================
+💡 KEY ADVANTAGES
+=================
+
+🚀 1. Zero API Complexity
+Users interact in plain English instead of REST APIs.
+
+🧠 2. AI-Native System
+Designed for AI-first workflows using MCP protocol.
+
+⚡ 3. Faster Development
+Developers don’t need frontend to test features.
+
+🔒 4. Secure & Controlled
+All operations go through validated tools.
+
+📊 5. Built-in Analytics
+No need for external BI tools.
+
+📦 6. Lightweight & Portable
+Runs locally with SQLite — no heavy infra required.
+
+🔄 7. Extensible
+Can integrate with:
+
+* FastAPI backend
+* React frontend
+* Cloud services
+
+============================================================
+📌 USAGE EXAMPLES
+=================
+
+## Add Expense:
+
+Add ₹500 expense for today in Groceries
+
+## List Expenses:
+
+Show my expenses for this month
+
+## Update:
+
+Update expense id 3 to ₹800
+
+## Delete:
+
+Delete expense id 5
+
+## Summary:
+
+Summarize my expenses this month
+
+## Top Expenses:
+
+Show top 5 expenses this month
+
+## Budget:
+
+Set ₹5000 monthly budget for Groceries
+Am I over budget?
+
+## Export:
+
+Export my expenses this month as CSV
+
+============================================================
+📡 SYSTEM COMMANDS
+==================
+
+Show categories:
+Show available categories
+
+Check health:
+Check system health
+
+View schema:
+Show expense schema
+
+============================================================
+👨‍💻 DEVELOPER NOTES
+=====================
+
+• Built using FastMCP
+• Uses @mcp.tool() for operations
+• Uses @mcp.resource() for metadata
+• Transport: stdio (Claude integration)
+• Database: SQLite (WAL mode)
+• Validation: Pydantic
+
+---
+
+## 🔧 EXTENSIBILITY
+
+This system can be extended to:
+
+✔ REST APIs (FastAPI integration)
+✔ Web dashboard (React)
+✔ Mobile apps
+✔ Voice assistants
+✔ WhatsApp bots
+✔ Cloud deployment (Docker/Kubernetes)
+
+============================================================
+⚠️ BEST PRACTICES
+=================
+
+✔ Use clear natural language
+✔ Include category/date for accuracy
+✔ Use tags for better filtering
+✔ Review summaries weekly
+
+❌ Avoid vague inputs:
+"expense", "data", "show something"
+
+============================================================
+🎯 REAL-WORLD WORKFLOW
+======================
+
+Daily:
+Add ₹200 groceries
+Add ₹50 tea
+
+Weekly:
+Summarize my expenses
+
+Monthly:
+Check budget
+Export data
+Analyze trends
+
+============================================================
+✅ READY TO USE
+==============
+
+Just type naturally:
+
+"Add ₹300 food expense"
+"Summarize my spending"
+"Am I over budget?"
+
+============================================================
+END OF GUIDE
+============
