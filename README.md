@@ -274,11 +274,6 @@ PRs welcome. Please:
 - Validate inputs via Pydantic before DB writes
 - Log mutations to `audit_log`
 
----
-
-## 📄 License
-
-MIT — see [LICENSE](LICENSE)
 
 ---
 
