@@ -1,0 +1,16 @@
+{
+  "categories": {
+    "Food & Dining": ["Groceries", "Restaurants", "Coffee", "Takeaway", "Meal Prep"],
+    "Transport": ["Fuel", "Public Transit", "Cab/Uber", "Car Maintenance", "Parking", "Flights"],
+    "Housing": ["Rent", "Utilities", "Internet", "Maintenance", "Furniture", "Home Decor"],
+    "Healthcare": ["Doctor", "Medicine", "Gym", "Mental Health", "Insurance"],
+    "Education": ["Courses", "Books", "Subscriptions", "Certifications", "Workshops"],
+    "Entertainment": ["Streaming", "Games", "Events", "Hobbies", "Travel"],
+    "Shopping": ["Clothing", "Electronics", "Accessories", "Gifts"],
+    "Finance": ["EMI", "Insurance Premium", "Investment", "Tax", "Fees"],
+    "Personal Care": ["Haircut", "Skincare", "Salon", "Toiletries"],
+    "Miscellaneous": ["Other"]
+  },
+  "currencies": ["INR", "USD", "EUR", "GBP", "JPY", "AED", "SGD"],
+  "recurrence_intervals": ["daily", "weekly", "monthly", "yearly"]
+}
