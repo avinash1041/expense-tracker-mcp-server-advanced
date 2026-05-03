@@ -3,7 +3,6 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://python.org)
 [![FastMCP](https://img.shields.io/badge/FastMCP-0.9%2B-green)](https://github.com/jlowin/fastmcp)
 [![Pydantic](https://img.shields.io/badge/Pydantic-v2-red)](https://docs.pydantic.dev)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A **production-grade** Model Context Protocol (MCP) server for expense tracking — built for senior AI engineers who care about type safety, clean architecture, observability, and real-world robustness.
 
